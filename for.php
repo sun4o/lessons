@@ -5,5 +5,5 @@
 <?php
 for ($i=1;$i<=$_POST['privet'];$i++)
 {
-    echo "Привет<br>";
+    echo " Привет<br>";
 }
