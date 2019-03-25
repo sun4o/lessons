@@ -19,6 +19,7 @@
     <input type="text" name="c">
 <br>
  <input type="submit" value="Посчитать">
+
 </form>
 
 <?php
