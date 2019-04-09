@@ -23,18 +23,12 @@
 </form>
 
 <?php
-$a=$_POST["a"];
+require_once "lib/functions.php";
 
-$b=$_POST["b"];
-
-$c=$_POST["c"];
-
+dis($_POST['a'],$_POST['b'],$_POST['c']);
+irur(9);
 
 
-$d1=$b*$b;
 
-$d=$d1-4*$a*$b;
-
-echo"D=".$d;
 
 ?>
