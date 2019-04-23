@@ -1,0 +1,14 @@
+a.button
+{
+    background-color: darkgreen;
+    color: white;
+    padding: 10px;
+    margin: 10px;
+    border-radius: 10px;
+    text-decoration: none;
+}
+
+a:hover.button
+{
+    background-color: black;
+}

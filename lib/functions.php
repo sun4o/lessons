@@ -27,10 +27,15 @@ function irur ()
 
 }
 
-function db ($sql)
+function db ($sql=null)
 {
-    $connection = mysqli_connect("localhost", 'sergey', 12345, "sergey");
-    mysqli_query($connection,"SET NAMES UTF-8");
+
+    if($connection = mysqli_connect("localhost", 'sergey', 12345, "sergey"))
+    {
+        echo "Мы подключились к БД";
+    }
+
+    mysqli_query($connection,"SET NAMES UTF8");
 
    if($sql)
    {
