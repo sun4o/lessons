@@ -1,8 +1,4 @@
 <?php
-function Hello ($n)
-{
-    echo "Hello ".$n;
-}
 
 function sum ($a,$b)
 {
@@ -32,7 +28,7 @@ function db ($sql=null)
 
     if($connection = mysqli_connect("localhost", 'sergey', 12345, "sergey"))
     {
-        echo "Мы подключились к БД";
+
     }
 
     mysqli_query($connection,"SET NAMES UTF8");
@@ -42,6 +38,7 @@ function db ($sql=null)
        $result = mysqli_query($connection, $sql);
        while ($row = mysqli_fetch_assoc($result))
        {
+
            $rows[] = $row;
        }
 

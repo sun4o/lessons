@@ -1,4 +1,4 @@
-<!<!doctype html>
+<!doctype html>
 <html lang="en">
 <head>
     <meta charset="UTF-8">
@@ -23,4 +23,3 @@ foreach ($pages as $page)
 
 </body>
 </html>
-
