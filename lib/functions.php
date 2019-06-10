@@ -45,3 +45,23 @@ function db ($sql=null)
        return $rows;
    }
 }
+
+// Таблица Пифагора
+function piffagor ($tr,$td)
+{
+    echo  "<table>\n";
+    for ($i=1; $i<=$tr; $i++)
+    {
+        echo "\t<tr>\n";
+        for ($d=1; $d<=$td; $d++)
+        {
+            echo "\t\t<td>";
+                echo $i*$d;
+            echo "</td>\n";
+        }
+
+        echo "\t</tr>\n";
+    }
+
+    echo  "</table>";
+}
