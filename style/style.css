@@ -1,9 +1,14 @@
+li
+{
+    margin-top: 25px;
+    list-style-type: none;
+}
+
 a.button
 {
     background-color: darkgreen;
     color: white;
     padding: 10px;
-    margin: 10px;
     border-radius: 10px;
     text-decoration: none;
 }
