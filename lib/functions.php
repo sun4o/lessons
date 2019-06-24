@@ -50,6 +50,7 @@ function db ($sql=null)
 function piffagor ($tr,$td)
 {
     echo  "<table>\n";
+
     for ($i=1; $i<=$tr; $i++)
     {
         echo "\t<tr>\n";
